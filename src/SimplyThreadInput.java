@@ -15,7 +15,7 @@ public class SimplyThreadInput implements InputMethod{
     @Override
     public String input() {
         for (String file:files) {
-            inputFromFile("C:\\Users\\User\\eclipse-workspace\\laba15_op\\src\\text\\" + file);
+            inputFromFile("E:\\1 курс\\прога\\семестр 2\\лабы\\лаба 12 (2)\\lab15-op\\src\\text\\" + file);
         }
         return sb.toString();
     }

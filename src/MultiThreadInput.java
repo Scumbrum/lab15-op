@@ -44,7 +44,7 @@ public class MultiThreadInput implements InputMethod{
     ArrayList<RunInput> runs = new ArrayList<>();
     ArrayList<Thread> threads = new ArrayList<>();
     for(String file :files) {
-        runs.add(new RunInput("C:\\Users\\User\\eclipse-workspace\\laba15_op\\src\\text\\" + file));
+        runs.add(new RunInput("E:\\1 курс\\прога\\семестр 2\\лабы\\лаба 12 (2)\\lab15-op\\src\\text\\" + file));
     }
     for (RunInput run:runs){
         threads.add(new Thread(run));
